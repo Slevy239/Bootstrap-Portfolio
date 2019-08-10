@@ -1,5 +1,5 @@
 body {
-    background: url(../Bootstrap-Portfolio/restaurant_icons.png)
+    background: url(../images/restaurant_icons.png)
 }
 
 #logo {
@@ -37,6 +37,22 @@ img {
 
 .picture {
     padding: 0 25px 5px 0;
+}
+
+#input {
+    width: 100%;
+}
+
+#message {
+    width: 100%;
+    height: 200px;
+}
+
+button {
+    background: #4aaaa5;
+    color: white;
+    border: none;
+    margin-top: 10px;
 }
 
 footer.footer.mt-auto.py-3 {

@@ -38,6 +38,15 @@ img {
 .picture {
     padding: 0 25px 5px 0;
 }
+.gallery {
+    width: 100%;
+    height: 150px;
+}
+.desc {
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 150px
+}
 
 #input {
     width: 100%;

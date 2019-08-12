@@ -1,9 +1,20 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
-    background: url(../images/restaurant_icons.png)
+    background: url(../images/restaurant_icons.png);
 }
 
 #logo {
     width: 150px;
+}
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
 }
 
 .container-fluid {
@@ -23,7 +34,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 
 .contentwrap {
     background: white;
-    width: 100%;
+    width: auto;
     margin-top: 35px;
     padding: 20px;
 }
@@ -38,14 +49,32 @@ img {
 .picture {
     padding: 0 25px 5px 0;
 }
-.gallery {
-    width: 100%;
+
+
+#galpic {
+    width: 150px;
     height: 150px;
 }
 .desc {
     text-align: center;
     background-color: #4aaaa5;
-    width: 150px
+    width: 150px;
+    height: 50px;
+    margin-left: -150px;
+    margin-top: 116px;
+}
+
+.desc2 {
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 150px;
+    height: 50px;
+    margin: 116px -150px 0;
+    padding: 4px;
+}
+
+.row {
+    margin-top: 25px;
 }
 
 #input {
@@ -64,11 +93,15 @@ button {
     margin-top: 10px;
 }
 
-footer.footer.mt-auto.py-3 {
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+    height: 60px;
     background-color: #666666;
     color: white;
-    margin-top: 17.5% !important;
-    border-top: #4aaaa5 8px solid;
+    border-top: 3px solid #4aaaa5;
     text-align: center;
     font-size: 11.3px;
 }
+

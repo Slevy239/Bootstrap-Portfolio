@@ -39,6 +39,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     margin-bottom: 20px;
     padding: 20px;
 }
+
+section.d-flex.justify-content-center.col-lg-12 {
+    background-color: white;
+    width: 45%;
+    margin-left: 25%;
+    margin-top: 15px;
+}
+
 h2 {
     border-bottom: 2px solid gray;
 }
@@ -99,5 +107,6 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 45px;
 
 }
